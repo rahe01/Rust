@@ -1,22 +1,17 @@
-const PRODUCT : i32 = 23;
+fn main(){
 
-fn main() {
-    // let num = 39;
-    // println!("Hello, world!");
-    // println!("{}" , num);
+    let s = "Hello, world!";
 
-    strings();
-}
-
-
-
-fn strings(){
-
-
-    
-    let mut s = "Hello";
-                      
+    {
+        let x = "Inner scope";
+        println!("{}", x);
+        println!("{}", s);
+    }
 
     println!("{}", s);
+    // println!("{}", x);
+    
 
+
+   
 }
