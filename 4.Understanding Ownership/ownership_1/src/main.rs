@@ -10,6 +10,12 @@ fn main(){
 
     println!("{}", s);
     // println!("{}", x);
+
+    {
+        let x = "Another inner scope";
+        println!("{}", x);
+        println!("{}", s);
+    }
     
 
 
